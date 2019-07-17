@@ -90,7 +90,6 @@ struct passwd {
 	time_t	pw_expire;		/* account expiration */
 };
 
-__BEGIN_DECLS
 struct passwd	*getpwuid(uid_t);
 struct passwd	*getpwnam(const char *);
 int		getpwnam_r(const char *, struct passwd *, char *, size_t,
@@ -111,6 +110,5 @@ int		bcrypt_newhash(const char *, int, char *, size_t);
 int		bcrypt_checkpass(const char *, const char *);
 struct passwd	*pw_dup(const struct passwd *);
 #endif
-__END_DECLS
 
 #endif /* !_PWD_H_ */

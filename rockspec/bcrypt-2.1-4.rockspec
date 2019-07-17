@@ -2,7 +2,7 @@ package = "bcrypt"
 version = "2.1-4"
 
 source = {
-	url = "git://github.com/mikejsavage/lua-bcrypt.git",
+	url = "git://github.com/jamesfcarter/lua-bcrypt.git",
 	tag = "v2.1-4",
 }
 
